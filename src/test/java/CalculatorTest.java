@@ -12,7 +12,7 @@ public class CalculatorTest {
         int base = 2;
         int power = 5;
         int answer = Main.power(2, 5);
-        Assert.assertEquals(answer, expectedAnswer);
+        Assert.assertEquals(answer, expectedAnswer, 0.0001);
     }
 
     @Test
@@ -20,7 +20,7 @@ public class CalculatorTest {
         double expectedAnswer = 0;
         int n = 1;
         double answer = Main.elog(n);
-        Assert.assertEquals(answer, expectedAnswer);
+        Assert.assertEquals(answer, expectedAnswer, 0.001);
     }
 
     @Test
@@ -29,6 +29,6 @@ public class CalculatorTest {
         int a = 10;
         int b = 15;
         int answer = Main.gcd(a, b);
-        Assert.assertEquals(answer, expectedAnswer);
+        Assert.assertEquals(answer, expectedAnswer, 0.0001);
     }
 }
