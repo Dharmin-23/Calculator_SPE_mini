@@ -16,7 +16,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void nCr() {
+    public void elog() {
         double expectedAnswer = 0;
         int n = 1;
         double answer = Main.elog(n);
