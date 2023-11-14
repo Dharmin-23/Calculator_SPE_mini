@@ -20,7 +20,7 @@ public class Main {
             System.out.println("99: Exit");
             choice = reader.nextInt();
             if(choice == 1) {
-                System.out.println("You have chosen power function");
+                System.out.println("You have chosen power functions");
                 System.out.println("Please enter base and exponent");
                 int base = reader.nextInt();
                 int exp = reader.nextInt();
@@ -46,9 +46,7 @@ public class Main {
                 System.out.println("GCD of " + a + " and " + b);
                 System.out.println(gcd(a, b));
             }
-            else if(choice == 4){
-
-            }
+            
         }
     }
 
