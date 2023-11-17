@@ -15,7 +15,7 @@ public class Main {
         while(choice != 99){
             System.out.println("Please choose the operation you want to perform");
             System.out.println("1. Power");
-            System.out.println("2. Natural Logarithm");
+            System.out.println("2. Natural Logarith");
             System.out.println("3: GCD");
             System.out.println("99: Exit");
             choice = reader.nextInt();
